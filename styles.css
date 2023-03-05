@@ -1,18 +1,18 @@
-.hero-image{
 
-  background-image: url("https://cdn3.pitchfork.com/longform/728/Wes-Anderson.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-position: relative;
+.img-movie{
+  display:flex;
+  height: auto;
+  margin:0;
+  padding:0;
+  width: 100%;
+
 }
   
-#image{
-max-width: 100%;
+.image{
+width: 100%; 
   height: auto;
-  display: block;
- }
+  object-fit: contain;
+}
 
 footer{
         text-align: center;
@@ -103,13 +103,7 @@ ul{
   font-weight: bold;
 
 }
-#img-movie{
-  max-width: 100%;
-    height: auto;
-    display:block;
 
-
-}
 #movie-list{
 
   margin-left: 5%;
